@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+kafka:
+  topics:
+    messages: messages-topic
+  groups:
+    persistence: group-persistence
+    audit: group-audit
+    processing: group-processing
